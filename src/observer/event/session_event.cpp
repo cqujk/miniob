@@ -22,3 +22,4 @@ SessionEvent::~SessionEvent() {}
 Communicator *SessionEvent::get_communicator() const { return communicator_; }
 
 Session *SessionEvent::session() const { return communicator_->session(); }
+//test
